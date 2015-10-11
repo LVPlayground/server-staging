@@ -8,18 +8,8 @@ The staging server is available by connecting to `play.sa-mp.nl` on port `1337` 
 client. There is no password.
 
 ## Updating the staging revision
-If you would like the staging server to update to the latest version of [the code]
-(https://github.com/LVPlayground/playground), use:
-
-    $ python update.py
-
-Alternatively, if you would like to update to [a specific revision]
-(https://github.com/LVPlayground/playground/tree/c495dcf9b7ece522fa157855e69e0ce58bb23b5e), use:
-
-    $ python update.py c495dcf9b7ece522fa157855e69e0ce58bb23b5e
-
-Both will automatically update the reference and create a commit for you. Do not forget to push the
-commit to the repository!
+Edit `[REVISION](REVISION)` with the SHA of the commit in the [playground]
+(https://github.com/LVPlayground/playground) repository that you wish to deploy.
 
 ## Auto-deploy
 Any changes to this repository will immediately be deployed to the test server, but a manual restart

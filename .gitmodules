@@ -1,4 +1,0 @@
-[submodule "playground"]
-	path = playground
-	url = https://github.com/LVPlayground/playground.git
-	ignore = dirty
