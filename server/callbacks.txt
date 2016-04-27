@@ -5,7 +5,7 @@
 # Las Venturas Playground callbacks
 forward OnPlayerActivityChange(playerid, activity);
 forward OnPlayerLevelChange(playerid, newlevel);
-forward OnPlayerLogin(playerid, userid);
+forward OnPlayerLogin(playerid, userid, gangid);
 forward OnPlayerResolvedDeath(playerid, killerid, reason);
 
 # SA-MP callbacks
