@@ -4,10 +4,12 @@
 
 # Las Venturas Playground callbacks
 forward OnColorPickerResponse(playerid, color);
+forward OnMessageLevelChange(playerid, messagelevel);
 forward OnPlayerActivityChange(playerid, activity);
 forward OnPlayerLevelChange(playerid, newlevel);
 forward OnPlayerLogin(playerid, userid, gangid);
 forward OnPlayerResolvedDeath(playerid, killerid, reason);
+foward OnSetiOwnershipChange(playerid);
 
 # SA-MP callbacks
 forward OnGameModeInit();
