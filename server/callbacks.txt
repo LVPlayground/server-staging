@@ -3,6 +3,7 @@
 # be found in the LICENSE file.
 
 # Las Venturas Playground callbacks
+forward OnColorPickerResponse(playerid, color);
 forward OnPlayerActivityChange(playerid, activity);
 forward OnPlayerLevelChange(playerid, newlevel);
 forward OnPlayerLogin(playerid, userid, gangid);
