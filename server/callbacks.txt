@@ -18,7 +18,7 @@ forward OnFilterScriptInit();
 forward OnFilterScriptExit();
 forward OnPlayerConnect(playerid);
 forward OnPlayerDisconnect(playerid, reason);
-forward OnPlayerSpawn(playerid);
+[Cancelable, ReturnOne] forward OnPlayerSpawn(playerid);
 forward OnPlayerDeath(playerid, killerid, reason);
 forward OnVehicleSpawn(vehicleid);
 forward OnVehicleDeath(vehicleid, killerid);
